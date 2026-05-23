@@ -2,16 +2,15 @@
 
 ## (Grupo 5)
 ---
-Emmanuel Aprígio C. dos Santos
-Luan  
+* Emmanuel Aprígio C. dos Santos
+* Luan  
 
 Este repositório contém a implementação de um sistema de busca em um grafo tridimensional que simula uma **Torre com Andares**, desenvolvido como atividade prática para a disciplina de **Introdução à Inteligência Artificial**.
 
 O objetivo principal é avaliar e visualizar o comportamento de algoritmos de **Busca Cega ** navegando verticalmente entre diferentes níveis para encontrar um objetivo específico.
 
 ## 📌 Escopo do Projeto 
-* **Algoritmos Focados:** * **DLS** (Depth-Limited Search / Busca em Profundidade Limitada)
-  * **IDS** (Iterative Deepening Search / Busca Iterativa em Profundidade)
+* **Algoritmos Focados:** * **DLS** (Depth-Limited Search / Busca em Profundidade Limitada) * **IDS** (Iterative Deepening Search / Busca Iterativa em Profundidade)
 * **Objetivo:** Encontrar o caminho mais eficiente do primeiro andar (Térreo) até ao objetivo.
 
 ## 📌 Conceitos Estudados
