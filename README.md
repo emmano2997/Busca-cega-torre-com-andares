@@ -2,8 +2,8 @@
 
 ## (Grupo 5)
 ---
-* Emmanuel Aprígio C. dos Santos
-* Luan  
+* Emmanuel Aprígio 
+* Luan Motta
 
 Este repositório contém a implementação de um sistema de busca em um grafo tridimensional que simula uma **Torre com Andares**, desenvolvido como atividade prática para a disciplina de **Introdução à Inteligência Artificial**.
 
