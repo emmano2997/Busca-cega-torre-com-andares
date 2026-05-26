@@ -6,9 +6,9 @@ from utils.graph_handle   import build_tower, place_goal
 if __name__ == "__main__":
 
     # ── 1. Build the 3-D tower ────────────────────────────────────────────────
-    FLOORS = 3
+    FLOORS = 5
     ROWS   = 3
-    COLS   = 2
+    COLS   = 3
 
     G     = build_tower(FLOORS, ROWS, COLS)
     start = (0, 0, 0)
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     print(f"Start: {start}   |   Goal: {goal}\n")
 
     # ── 3. Run the algorithms ─────────────────────────────────────────────────
-    DLS_LIMIT = 10
+    DLS_LIMIT = 5
     IDS_LIMIT = 15
 
     bfs_steps = list(BFS(G, start, goal))
@@ -32,8 +32,8 @@ if __name__ == "__main__":
 
     # ── 4. Animate each algorithm ─────────────────────────────────────────────
 
-    #print("\nAnimando BFS…")
-    #animate_search(G, bfs_steps, goal, algo_name="BFS")
+    print("\nAnimando BFS…")
+    animate_search(G, bfs_steps, goal, algo_name="BFS")
 
     print("Animando DLS…")
     animate_search(G, dls_steps, goal, algo_name=f"DLS  (limit={DLS_LIMIT})")
