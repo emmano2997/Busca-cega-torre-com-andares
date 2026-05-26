@@ -2,6 +2,7 @@ from utils.visualization import animate_search, plot_tower, compare_algorithms
 from utils.search_types   import BFS, DLS, IDS
 from utils.graph_handle   import build_tower, place_goal
 
+#Grupo 05: Emmanuel Aprígio e Luan Motta
 
 if __name__ == "__main__":
 

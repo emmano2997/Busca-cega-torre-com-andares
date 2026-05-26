@@ -34,5 +34,6 @@ Combina a eficiência de memória da DFS com a otimalidade de caminhos da BFS. O
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
-   cd NOME-DO-REPOSITORIO
+   git clone https://github.com/emmano2997/Busca-cega-torre-com-andares.git
+   /Busca-cega-torre-com-andares/main.py
+   
